@@ -1,5 +1,14 @@
 # metaheuristic-manifold-optimization
- This study pioneered the proposal and implementation of a metaheuristic manifold optimization, introducing a novel directional transport operator to rectify convergence and local minimum issues.
+ This is the implementation of paper: [From Constraints Fusion to Manifold Optimization: A New Directional Transport Manifold Metaheuristic Algorithm]()
+
+### contents 
+-*preliminary introduction*
+-*source code*
+-*How to reproduce the results*
+-*Data*
+-*Understanding the repository* code review
+-* Directional Transport operator* (Understand the operator)
+-*How to cite*
 
 
 # Understand the operator
