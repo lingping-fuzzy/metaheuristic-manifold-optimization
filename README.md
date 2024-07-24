@@ -29,6 +29,8 @@ In this paper, we experiment with six problem sets include the dominant invarian
 </details>
 
 ### preliminary introduction
+A metaheuristic manifold algorithm shares a similar structure to a traditional algorithm in many operators and differs in the implementation that guarantees the population's movement on the manifold. To propose a metaheuristic manifold algorithm, the population movement must be constrained in a specific `manner' so that each individual of the population remains on the manifold during the evolution process. Essentially, each individual is an element ( or point) of the manifold. For instance, the solution (point or element) is on Sphere manifolds. 
+A very good and detailed introduction, implementation can be found [here](https://github.com/NicolasBoumal/manopt) and [here](https://www.manopt.org/)
 ### Source code
 ### Understanding the repository
 
