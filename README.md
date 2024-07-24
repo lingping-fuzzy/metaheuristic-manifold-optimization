@@ -4,13 +4,13 @@
 
 <details>
  <summary><b>contents </b></summary>
--*preliminary introduction*
--*source code*
--*How to reproduce the results*
--*Data*
--*Understanding the repository* code review
--* Directional Transport operator* (Understand the operator)
--*How to cite*
+- *preliminary introduction*
+- *source code*
+- *How to reproduce the results*
+- *Data*
+- *Understanding the repository* code review
+- * Directional Transport operator* (Understand the operator)
+- *How to cite*
 </details>
 
 # Understand the operator
