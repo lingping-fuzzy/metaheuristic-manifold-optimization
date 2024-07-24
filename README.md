@@ -38,7 +38,7 @@ A very good and detailed introduction, implementation can be found [here](https:
 To understand the Directional Transport operator, you just need to consider the decomposition of signal/image/ or any other familar data. 
 <details>
 Most implementations closely follow traditional metaheuristic algorithms by converting operations to tangent spaces without utilizing operations that specifically take advantage of manifold structures, as opposed to traditional Euclidean spaces. We propose an operation tailored for manifold learning. The figure below shows that after the directional transport of motion v, the decomposed $v_2$ moves out of the manifold (surface) into the complementary space. The retraction operation then pulls $v_2$ back to the original point $x$, regardless of how far the point travels in this direction.
-</details>details>
+</details>
 
 ### Data
 ### How to reproduce the results
