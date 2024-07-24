@@ -2,7 +2,7 @@
  This is the implementation of paper: [From Constraints Fusion to Manifold Optimization: A New Directional Transport Manifold Metaheuristic Algorithm]()
 
 <details>
-  <summary><b>Why we do Manifold metaheuristic algorithms </b></summary>
+  <summary><b>Why we study Manifold metaheuristic algorithms </b></summary>
 Metaheuristic algorithms are suited for combinatorial optimization problems, given that, although they are not usually guaranteed to find the optimal global solution, they can often find a sufficiently good solution in a decent amount of time. 
 Meta-heuristics can also be easily applied to many problems because they are not problem-specific and often incorporate some form of randomness to escape from local minima. The generalization and implementation of numerical optimization algorithms to the manifolds have been well studied and successfully applied to actual problems from science, engineering, and robotics.
 </details>
