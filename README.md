@@ -34,6 +34,10 @@ A very good and detailed introduction, implementation can be found [here](https:
 ### Source code
 Our implementation is based on repository ManOpt [here](https://github.com/NicolasBoumal/manopt), thanks Manopt group. 
 
+```matlab-usage
+runexample.m - an example code.
+```
+
 ### Understanding the repository
 
 # Understand the operator
@@ -50,7 +54,7 @@ Most implementations closely follow traditional metaheuristic algorithms by conv
 
 It is the same as running any one metaheuristic algorithm. Use the following command:
 
-```matlab
+```matlab-usage
 [X, xcost, info, ~] = mDTMA(problem, pn, itmax, 0.1, []);
 ```
 
@@ -64,6 +68,7 @@ Here is a breakdown of the parameters:
 - 
 ### How to cite
 
+If you have questions, please write to lingping_kong@yahoo.com
 
 ![see the figures for ](https://github.com/lingping-fuzzy/metaheuristic-manifold-optimization/figs/DTMA.png)
 
