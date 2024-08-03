@@ -41,9 +41,25 @@ Most implementations closely follow traditional metaheuristic algorithms by conv
 </details>
 
 ### Data
-### How to reproduce the results
 
+ We experiment with six problem sets including: the dominant invariant $p$-subspace, $p \in \mathbb{R}$, Procrustes problem, Semidefinite programs, Truncated singular value decomposition (SVD) problem, Thomson problem , and robot manipulation. We randomly generate five initial settings (if one problem involve an initial matrix, we randomly generate one as baseline) to construct five problem variants for each problem set, termed dataset1, dataset2,$\ldots$, to dataset5.
+ 
+### How to Reproduce the Results
 
+It is the same as running any one metaheuristic algorithm. Use the following command:
+
+```matlab
+[X, xcost, info, ~] = mDTMA(problem, pn, itmax, 0.1, []);
+```
+
+Here is a breakdown of the parameters:
+
+- `problem`: Defines the cost, manifold, and all basic settings.
+- `pn`: Initial population size.
+- `itmax`: Maximum iteration number.
+- `0.1`: A parameter that can be tuned for better performance, referred to as `w0` in the paper.
+- `mDTMA`: THE PROPOSED METHOD NAME
+- 
 ### How to cite
 
 
