@@ -47,9 +47,9 @@ Most implementations closely follow traditional metaheuristic algorithms by conv
 </details>
 
 ### Data
-
  We experiment with six problem sets including: the dominant invariant $p$-subspace, $p \in \mathbb{R}$, Procrustes problem, Semidefinite programs, Truncated singular value decomposition (SVD) problem, Thomson problem , and robot manipulation. We randomly generate five initial settings (if one problem involve an initial matrix, we randomly generate one as baseline) to construct five problem variants for each problem set, termed dataset1, dataset2,$\ldots$, to dataset5.
- 
+
+ Robotic data is from paper [2]
 ### How to Reproduce the Results
 
 It is the same as running any one metaheuristic algorithm. Use the following command:
@@ -65,11 +65,31 @@ Here is a breakdown of the parameters:
 - `itmax`: Maximum iteration number.
 - `0.1`: A parameter that can be tuned for better performance, referred to as `w0` in the paper.
 - `mDTMA`: THE PROPOSED METHOD NAME
-- 
-### How to cite
 
+``` Robot arm experiment, 
+    shared code by paper [1][2], and if you have problems access their, write to me. 
+```
+
+
+### citation
+ [1] Saveriano, M., Abu-Dakka, F.J. and Kyrki, V., 2023. Learning stable robotic skills on Riemannian manifolds. Robotics and Autonomous Systems, 169, p.104510.
+ [2] Abu-Dakka, F.J., Rozo, L. and Caldwell, D.G., 2018. Force-based variable impedance learning for robotic manipulation. Robotics and Autonomous Systems, 109, pp.156-167.
+### How to cite
+[link](https://www.sciencedirect.com/science/article/pii/S1566253524003749?dgcid=author)
+
+```
+@article{snavsel2024constraints,
+  title={From constraints fusion to manifold optimization: A new directional transport manifold metaheuristic algorithm},
+  author={Sn{\'a}{\v{s}}el, V{\'a}clav and Kong, Lingping and Das, Swagatam},
+  journal={Information Fusion},
+  pages={102596},
+  year={2024},
+  publisher={Elsevier}
+}
+```
 If you have questions, please write to lingping_kong@yahoo.com
 
-![see the figures for ](https://github.com/lingping-fuzzy/metaheuristic-manifold-optimization/figs/DTMA.png)
 
+
+![see the figures for ](https://github.com/lingping-fuzzy/metaheuristic-manifold-optimization/figs/DTMA.png)
 
