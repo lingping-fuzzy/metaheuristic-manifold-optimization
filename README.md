@@ -69,6 +69,9 @@ Here is a breakdown of the parameters:
 ``` Robot arm experiment, 
     shared code by paper [1][2], and if you have problems access their, write to me. 
 ```
+## License
+
+This project is licensed under the Creative Commons Attribution 4.0 International License - see the [LICENSE](LICENSE) file for details.
 
 
 ### citation
